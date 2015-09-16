@@ -1,0 +1,46 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background: url("../images/apple.jpg");
+    background-size: cover;
+}
+
+/*头部*/
+#header{
+    height: 33px;
+    line-height: 33px;
+    background-color: rgba(241,241,241,0.8);
+    box-shadow: 0 0 5px black;
+    font-size: 18px;
+}
+
+#header li:hover{
+    cursor: pointer;
+}
+
+#header .header-left{
+    display: inline-block;
+}
+
+#header .header-left li{
+    float: left;
+    margin: 0 10px;
+}
+#header .header-left .apples{
+    line-height: 33px;
+}
+
+#header .header-right{
+    float: right;
+}
+
+#header .header-right li{
+    margin-right:10px;
+}
