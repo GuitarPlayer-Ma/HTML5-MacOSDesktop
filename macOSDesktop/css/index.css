@@ -51,6 +51,28 @@ body{
     margin-right:10px;
 }
 
+/*主要内容*/
+#main{
+    color: #ffffff;
+}
+
+#main .file{
+    margin: 40px;
+}
+
+#main .file img{
+    width: 90px;
+    height: auto;
+}
+
+#main .file p{
+    width: 90px;
+    font-size: 18px;
+    margin-top: 8px;
+    text-align: center;
+    text-shadow: 0 0 5px black;
+}
+
 /*尾部*/
 #footer{
     width: 100%;
